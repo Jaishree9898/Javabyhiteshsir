@@ -1,11 +1,11 @@
-// data-types and ECMA Standards
+// data-types and ECMA Standards Specification
 
 "use strict"; // treat all JS code as newer version
 
-let name = "chiranjeev"
+let name = "jaishree"
 let age = 20
 let isLoggedIn = true
-let state
+let state;
 // alert(3 + 3) // there is in node have different syntax to use it
 // we're using nodejs, not browser
 
@@ -13,7 +13,7 @@ let state
 
 // console.log("Namaste");
 
-// datatypes
+// datatypess
 // number => 2^53
 // bigInt
 // string = ""
@@ -23,7 +23,7 @@ let state
 // symbol => unique
 
 // object
-// typeof
+// typeof-datatypes
 
 console.log(typeof "namaste");
 console.log(typeof age);

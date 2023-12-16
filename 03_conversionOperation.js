@@ -1,13 +1,20 @@
 // data-types conversion
 
-let score = 30
-console.log(typeof score);
+let score = "30abc";
+console.log(typeof score);   /*   or  console.log(typeof (score));*/
 
-score = "30"
-console.log(typeof score);   
+let valueInNumber=Number(score);  /* because of the datatype Number*/
+console.log(valueInNumber); /* NaN-not a number */
 
-let value = Number(score)
-console.log(typeof value);
+let isLoggedIn="hi";
+let booleanIsLoggedIn=Boolean(isLoggedIn);
+console.log(booleanIsLoggedIn);
 
-value = Number("30abc")
-console.log(typeof value);
+// score = "30"
+// console.log(typeof score);   
+
+// let value = Number(score)s
+// console.log(typeof value);
+
+// value = Number("30abc")s
+// console.log(typeof value);
