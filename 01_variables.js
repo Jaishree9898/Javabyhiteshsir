@@ -5,11 +5,12 @@ var accountPassword = "12345";
 accountCity = "Rishikesh";
 let accountState;
 
-console.table(
-    [accountId, accountEmail, accountPassword, accountCity]
-); 
+// Prefer not to use var
+console.log(accountId, accountEmail, accountPassword, accountCity);
 
-// accountId = 241; // its not allowed
+console.table([accountId, accountEmail, accountPassword, accountCity]); 
+
+// // accountId = 241; // its not allowed
 
 accountEmail = "nc@gmail.com";
 accountPassword = "54321";
